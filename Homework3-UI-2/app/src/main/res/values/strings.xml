@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Homework3-UI-2-15301078吴静远</string>
+
+    <string name="ArrayAdapterText">这是一个ListView，用ArrayAdapter做的</string>
+    <string name="BaseAdapterText">这是一个ListView，用BaseAdapter做的</string>
+    <string name="SimpleAdapterText">这是一个ListView，用SimpleAdapter做的</string>
+
+    <string name="btnArrayAdapterText">这是一个ListView，用ArrayAdapter做的</string>
+    <string name="btnBaseAdapterText">BaseAdapter。。。好像没什么变化？</string>
+    <string name="btnSimpleAdapterText">SimpleAdapter。。。就是没什么变化。。因为Item和内容全是都一样的</string>
+</resources>
