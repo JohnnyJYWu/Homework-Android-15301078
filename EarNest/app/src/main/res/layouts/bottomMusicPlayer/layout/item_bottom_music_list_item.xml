@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bottomMusicListItemNumber"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="01"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/tv_bottomMusicListItemNumber">
+
+        <TextView
+            android:id="@+id/tv_bottomMusicListItemMusicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="musicName"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_bottomMusicListItemMusicSinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="singer"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bottomMusicListItemDelete"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ic_delete"/>
+
+</RelativeLayout>

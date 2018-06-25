@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.earnest.ui.home.menuFragments.VideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="VIDEO" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/menu.rv.spacing.top"
+        android:layout_marginLeft="@dimen/menu.rv.spacing.side"
+        android:layout_marginRight="@dimen/menu.rv.spacing.side"/>
+
+</RelativeLayout>

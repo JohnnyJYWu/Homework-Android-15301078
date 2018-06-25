@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e20202</color>
+    <color name="colorPrimaryDark">#e20202</color>
+    <color name="colorAccent">#f4f4f4</color>
+
+    <!-- Common -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="app.color.background">#f7f5f5</color>
+
+    <!-- Theme - Dark Blue -->
+    <color name="dark_blue.background">#484e51</color>
+    <color name="dark_blue.gradientColor">#3d85ba</color>
+
+    <!-- 底栏音乐播放器-->
+    <color name="colorBottomPlayer">#ffffff</color>
+    <color name="colorBottomPlayerMusicName">#0d0101</color>
+    <color name="colorBottomMusicListDivider1">#cecaca</color>
+    <color name="colorDividerLine">#cecaca</color>
+    <color name="colorBottomMusicList">#ffffff</color>
+
+    <!--更多操作-->
+    <color name="colorMoreAction">#ffffff</color>
+
+    <!-- 本地音乐-->
+    <color name="colorMyMusicTitle">#e20202</color>
+    <color name="colorMyMusicdivider">#b3acac</color>
+
+    <!--个人设置-->
+    <color name="colorPersonalSettingdivider">#b3acac</color>
+
+    <!--评论-->
+    <color name="colorRemarkHead">#e0d9ec</color>
+    <color name="colorRemarkBottom">#edeaf1</color>
+    <color name="colorRemarkButtom">#727173</color>
+
+    <!--我喜欢歌单-->
+    <color name="colorMyFavouriteMusicList">#454141</color>
+    <color name="myFavouriteMusicListPrimary">#454141</color>
+    <color name="myFavouriteMusicListPrimaryDark">#454141</color>
+    <color name="colorMyFavouriteMusicListItemDivider">#dad7d7</color>
+
+    <!--音乐播放器-->
+    <color name="musicPlayerPrimary">#3d85ba</color>
+    <color name="musicPlayerPrimaryDark">#3d85ba</color>
+
+</resources>
